@@ -1,0 +1,62 @@
+@media screen and (max-width:767px) {
+    body{
+        background-color:  hsl(212, 45%, 89%);
+       height: 100%;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       padding: 10%;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(0, 0%, 100%);
+            min-height: 10vh;
+            border-radius: 2%;
+        }
+        img{
+            padding-top: 4%;
+            width: 80%;
+            border-radius: 4%;
+        }
+        h1{
+        padding-left: 20px;
+            color: hsl(218, 44%, 22%);
+        }
+        p{
+            padding-left: 20px;
+            color:  hsl(220, 15%, 55%);
+        }
+    }
+    @media screen and (min-width:767px) and (max-width:9990px) {
+        body{
+            background-color:  hsl(212, 45%, 89%);
+           height: 100%;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+           justify-content: center;
+           align-items: center;
+           padding: 26%;
+            }
+            div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: hsl(0, 0%, 100%);
+                border-radius: 2%;
+                margin: 12%;
+            }
+            img{
+                padding-top: 2%;
+                width:20vh;
+                border-radius: 4%;
+            }
+            h1{
+            padding-left: 20px;
+                color: hsl(218, 44%, 22%);
+            }
+            p{
+                padding-left: 20px;
+                color:  hsl(220, 15%, 55%);
+            }
+    }
